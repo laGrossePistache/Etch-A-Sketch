@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    padding: 48px 0 128px 0;
+    background: #94B49F;
+}
+
+#sketch-pad{
+    margin: 0 auto;
+    padding: 24px 0;
+    background-color: antiquewhite;
+}
+
+#sketch-pad .flex-container{
+
+    margin: 0 auto;
+    width: 960px;
+    height: 960px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: #DF7861;
+    padding: 32px;
+    height: 48px;
+}
