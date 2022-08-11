@@ -21,11 +21,26 @@ header{
     width: 960px;
     height: 960px;
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer{
-    text-align: center;
     background-color: #DF7861;
-    padding: 32px;
-    height: 48px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-element{
+    margin: 0;
+    padding: 0;
+    background: blue;
+    width: 60px;
+    height: 60px;
+}
+
+.grid-element:hover{
+    background-color: gray;
 }
