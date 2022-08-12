@@ -2,6 +2,7 @@ const flexContainer = document.querySelector(".flex-container");
 const gridSlider = document.querySelector("#grid-range");
 const gridSizeElement = document.querySelector("#grid-size");
 const gridElements = [];
+const initialGridSize = 512;
 
 generateNewGrid(gridSlider.value);
 
@@ -12,8 +13,8 @@ gridSlider.addEventListener("change", (e) => {
 
 function generateNewGrid(gridSize) {
   clearGridElements();
-  const finalElementSize = 1024 / gridSize;
-  const finalGridSize = 1024 * 1024;
+  const finalElementSize = initialGridSize / gridSize;
+  const finalGridSize = initialGridSize * initialGridSize;
   const finalGridElementNumber =
     finalGridSize / (finalElementSize * finalElementSize);
   for (let index = 0; index < finalGridElementNumber; index++) {
