@@ -18,9 +18,9 @@ header{
 #sketch-pad .flex-container{
 
     margin: 0 auto;
-    width: 960px;
-    height: 960px;
-    background-color: white;
+    width: 1024px;
+    height: 1024px;
+    /* background-color: white; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -36,9 +36,7 @@ footer{
 .grid-element{
     margin: 0;
     padding: 0;
-    background: blue;
-    width: 60px;
-    height: 60px;
+    background: white;
 }
 
 .grid-element:hover{
