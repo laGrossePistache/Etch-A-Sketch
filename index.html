@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="javascript.js" defer></script>
     <title>Etch-A-Sketch</title>
-</head>
-<body>
-    <header><h1>Etch-A-Sketch</h1></header>
+  </head>
+  <body>
+    <header>
+      <h1>Etch-A-Sketch</h1>
+      Grid size: <span id="grid-size">16x16</span>
+      <input
+        type="range"
+        name=""
+        id="grid-range"
+        min="1"
+        max="100"
+        value="16"
+      />
+    </header>
     <section id="sketch-pad">
-        <div class="flex-container">
-            
-        </div>
+      <div class="flex-container"></div>
     </section>
 
-    <footer>
-        Project from The Odin Project by Tommy Melançon-Roy
-    </footer>
-</body>
+    <footer>Project from The Odin Project by Tommy Melançon-Roy</footer>
+  </body>
 </html>

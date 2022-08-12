@@ -3,34 +3,57 @@
     padding: 0;
 }
 
+body{
+    background-color: antiquewhite;
+    font-family: 'Silkscreen', cursive;
+
+}
+
 header{
     text-align: center;
-    padding: 48px 0 128px 0;
+    padding: 24px 0 24px 0;
     background: #94B49F;
+    color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+}
+
+header h1{
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#grid-range{
+    display: block;
+    margin: 12px auto;
+    background-color: antiquewhite;
 }
 
 #sketch-pad{
     margin: 0 auto;
     padding: 24px 0;
-    background-color: antiquewhite;
 }
 
 #sketch-pad .flex-container{
-
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 12px;
     margin: 0 auto;
     width: 1024px;
     height: 1024px;
-    /* background-color: white; */
     display: flex;
     flex-wrap: wrap;
 }
 
 footer{
     background-color: #DF7861;
+    color: antiquewhite;
     height: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px -3px 8px;
+
 }
 
 .grid-element{
